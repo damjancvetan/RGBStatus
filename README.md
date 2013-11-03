@@ -20,6 +20,8 @@ RGBStatus statusRGB(47, 4, 5);
 void setup(){
 	statusRGB.test();
 	statusRGB.setMode(STATUS_NORMAL);
+	
+	statusRGB.setColor(255, 255, 0);
 }
  
 void loop(){
