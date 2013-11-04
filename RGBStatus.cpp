@@ -8,15 +8,6 @@
 
 #include "RGBStatus.h"
 
-// Setup pins for colors
-int outRed, outGreen, outBlue;
-
-// Current colors
-int colorRed, colorGreen, colorBlue;
-
-// Save values
-int saveRed, saveGreen, saveBlue;
-
 // Construct
 RGBStatus::RGBStatus(int pinRed, int pinGreen, int pinBlue){
   outRed    = pinRed;

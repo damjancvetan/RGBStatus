@@ -30,6 +30,15 @@ public:
   void save();
   void restore();
   void test();
+private:
+  // Setup pins for colors
+  int outRed, outGreen, outBlue;
+  
+  // Current colors
+  int colorRed, colorGreen, colorBlue;
+  
+  // Save values
+  int saveRed, saveGreen, saveBlue;
 };
 
 #endif
